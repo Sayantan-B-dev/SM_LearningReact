@@ -1,0 +1,16 @@
+.PropertyList {
+  display: flex;
+  gap:5px;
+  flex-direction: column;
+}
+.Property{
+  padding: 10px;
+  border:1px solid;
+  border-radius: 10px;
+  transition: all 0.1s ease-in-out;
+  &:hover{
+    scale:1.2;
+    background-color: rgba(94, 94, 94, 0.533);
+    backdrop-filter: 50px;
+  }
+}
