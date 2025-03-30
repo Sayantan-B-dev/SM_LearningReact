@@ -1,0 +1,26 @@
+.Die {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+    user-select: none;
+}
+
+.Die:hover {
+    background-color: #e0e0e0;
+    transform: scale(1.1);
+}
+.Die:active {
+    background-color: #c5baba;
+    transform: scale(1);
+}

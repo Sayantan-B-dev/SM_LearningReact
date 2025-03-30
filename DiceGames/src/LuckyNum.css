@@ -1,0 +1,9 @@
+.LuckyNum{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+}
+.LuckyNum button{
+    width: fit-content;
+}
